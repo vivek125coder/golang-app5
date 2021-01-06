@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: demo-app-5
+  description: demo-app-5
+  annotations: 
+    github.com/project-slug: vivek125coder/golang-app5
+    backstage.io/github-actions-id: vivek125coder/golang-app5
+spec:
+  type: service
+  lifecycle: experimental
+  owner: vivekthangathurai
